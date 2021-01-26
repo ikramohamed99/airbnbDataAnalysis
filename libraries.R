@@ -1,0 +1,37 @@
+
+LIBRARIES<-c("outliers",
+             "corrplot",
+             "MASS",
+             "formattable",
+             "stats",
+             "PerformanceAnalytics",
+             "lubridate",
+             "randomForest",
+             "C50",
+             "keras",
+             "tidyverse",
+             "tidytext",
+             "leaflet",
+             "gridExtra",
+             "dplyr",
+             "scatterplot3d",
+             "caret",
+             "scales",
+             "wordcloud",
+             "curl",
+             "factoextra",
+             "ClusterR",
+             "fpc",
+             "flexclust",
+             "plotly",
+             "ggridges",
+             "reshape2",
+             "tensorflow",
+             "reticulate",
+             "ggplot2",
+             "tfruns",
+             "tidyr")
+
+
+library(pacman)
+pacman::p_load(char=LIBRARIES, install=TRUE, character.only=TRUE)
